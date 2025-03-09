@@ -24,5 +24,7 @@ public class Example4 {
         System.out.println("Component vehicle name from spring context is:" + veh.getName());
         veh.printHello();
 
+        context.close();
+
     }
 }
